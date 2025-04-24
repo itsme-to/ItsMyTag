@@ -2,15 +2,17 @@
   "name": "taggenerator",
   "version": "1.0.0",
   "description": "",
-  "main": "generate.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
-    "@napi-rs/canvas": "^0.1.44",
-    "fs": "^0.0.1-security",
+    "@napi-rs/canvas": "^0.1.69",
+    "culori": "^4.0.1",
     "yaml": "^2.3.4"
   }
 }
